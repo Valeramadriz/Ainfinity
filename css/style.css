@@ -1,17 +1,40 @@
-html{
-    font-family: 'Lato', sans-serif;
-    background-color:azure;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
 }
 
-.seccion{
+
+html {
+    font-family: 'Lato', Arial, sans-serif;
+    text-align: center;
+    background-color: azure;
+}
+
+.seccion {
     background-color: gray;
 }
 
-.division{
+h1,h2,h3{
+    font-family: 'Lato Black';
+}
+
+h1 {
+    border-bottom: 2.5px solid black;
+    padding-bottom: 5px;
+}
+
+h2 {
+    border-bottom: 1.75px solid black;
+    padding-bottom: 5px;
+}
+
+.division {
     border-color: rgb(71, 71, 71);
 }
 
 #logoprincipal {
+    padding: 1rem 0rem;
     height: 10rem;
     width: auto;
     background-color: black;
@@ -23,5 +46,7 @@ html{
 }
 
 .imagenes {
-    width: 33%;
+    width: 30%;
+    padding: 0.1rem;
+    margin: 2px;
 }
