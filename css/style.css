@@ -1,0 +1,27 @@
+html{
+    font-family: 'Lato', sans-serif;
+    background-color:azure;
+}
+
+.seccion{
+    background-color: gray;
+}
+
+.division{
+    border-color: rgb(71, 71, 71);
+}
+
+#logoprincipal {
+    height: 10rem;
+    width: auto;
+    background-color: black;
+    text-align: center;
+}
+
+.box {
+    background-color: gray;
+}
+
+.imagenes {
+    width: 33%;
+}
