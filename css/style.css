@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: 0;
@@ -8,45 +8,79 @@
 html {
     font-family: 'Lato', Arial, sans-serif;
     text-align: center;
-    background-color: azure;
-}
-
-.seccion {
     background-color: gray;
 }
 
-h1,h2,h3{
-    font-family: 'Lato Black';
+
+
+div{
+    padding: 5px;
 }
 
 h1 {
-    border-bottom: 2.5px solid black;
+    border-bottom: 1.75px solid black;
     padding-bottom: 5px;
+    margin: 20px 0;
 }
 
 h2 {
     border-bottom: 1.75px solid black;
     padding-bottom: 5px;
+    margin: 20px 0;
+}
+
+#logoprincipal {
+    padding: 1rem 0rem;
+    width: auto;
+    background-color: black;
+    text-align: center;
+}
+
+.seccion-menu{
+    background-color: black;
+    display: flex;
+}
+
+.menu {
+    flex-grow: 1
+    ;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+.menu:hover {
+    color: grey;
+    background-color: rgb(21, 21, 21);
+}
+
+.instagram{
+    padding: 5px;
+}
+
+.contenido-instagram{
+    display: flex;
+    margin: 0.5rem 1.5rem;
+    font-size: 40px;
+}
+
+.texto-instagram{
+    margin: 50px;
+    max-width: 100%;
+    text-align:left;
 }
 
 .division {
     border-color: rgb(71, 71, 71);
 }
 
-#logoprincipal {
-    padding: 1rem 0rem;
-    height: 10rem;
-    width: auto;
-    background-color: black;
-    text-align: center;
-}
-
-.box {
+.productos {
     background-color: gray;
 }
 
 .imagenes {
-    width: 30%;
-    padding: 0.1rem;
-    margin: 2px;
+    width: 32%;
 }
