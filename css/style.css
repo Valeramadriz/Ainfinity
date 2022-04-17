@@ -14,7 +14,7 @@ html {
 
 
 div{
-    padding: 5px;
+    padding: 0px;
 }
 
 h1 {
@@ -76,6 +76,10 @@ h2 {
     font-size: 2rem;
 }
 
+.nosotros{
+    max-width: 90%;
+}
+
 .division {
     border-color: rgb(71, 71, 71);
 }
@@ -86,4 +90,8 @@ h2 {
 
 .imagenes {
     width: 32%;
+}
+
+.youtube{
+    max-width: 60%;
 }
